@@ -1,0 +1,81 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #202020;
+}
+
+main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#genius {
+	width: 300px;
+	height: 300px;
+	display: grid;
+	grid-gap: 10px;
+	border-radius: 100%;
+	background-color: #101010;
+	box-shadow: 0 0 15px 10px #101010;
+	grid-template-areas: 'area-green area-red' 'area-yellow area-blue';
+}
+
+#circle {
+	width: 100px;
+	height: 100px;
+	margin: 100px;
+	position: absolute;
+	border-radius: 100%;
+	background-color: #101010;
+}
+
+#tileBlue {
+	grid-area: area-blue;
+	background-color: #0F116B;
+	border-radius: 0 5px 100% 5px;
+}
+
+#tileBlue.selected {
+	background-color: blue;
+	box-shadow: 0 0 10px blue, 0 0 10px blue;
+}
+
+#tileRed {
+	grid-area: area-red;
+	background-color: #5C1915;
+	border-radius: 5px 100% 5px 0;
+}
+
+#tileRed.selected {
+	background-color: red;
+	box-shadow: 0 0 10px red, 0 0 20px red;
+}
+
+#tileGreen {
+	grid-area: area-green;
+	background-color: #155932;
+	border-radius: 100% 5px 0 5px;
+}
+
+#tileGreen.selected {
+	background-color: #54EB61;
+	box-shadow: 0 0 10px #54EB61, 0 0 20px #54EB61;
+}
+
+#tileYellow {
+	grid-area: area-yellow;
+	background-color: #8F8807;
+	border-radius: 5px 0 5px 100%;
+}
+
+#tileYellow.selected {
+	background-color: yellow;
+	box-shadow: 0 0 10px yellow, 0 0 20px yellow;
+}
