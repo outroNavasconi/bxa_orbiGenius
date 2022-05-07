@@ -1,5 +1,5 @@
 # Desafio de projeto: Genius
-Desafio de projeto proposto pelo **bootcamp Órbi Web Games Developer** da plataforma **DIO (Digital Inovation One)**
+Desafio de projeto proposto pelo **bootcamp Órbi Web Games Developer** da plataforma **DIO (Digital Innovation One)**
 
 ## Sobre o jogo
 Trata-se de um jogo de memória contendo 4 botões nas cores verde, vermelho, azul e amarelo.
@@ -7,5 +7,5 @@ Os botões são acessos em uma sequência específica. A cada rodada essa sequê
 É da responsabilidade do jogador decorar e reproduzir a sequência de botões. 
 
 ## Link
-O jogo pode ser visto no link abaixo:
+O jogo pode ser visto no link:
 [Genius](https://outronavasconi.github.io/bxa_orbiGenius/)
